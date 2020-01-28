@@ -7,10 +7,7 @@ var dobro = function (a) {
 
 try {
 
-    var expected = 20;
-    var actual   = 10;
-
-    assert.equal(expected, dobro(actual));
+    assert.equal(20, dobro(10));
 
 } catch(e) {
     console.log(e);
